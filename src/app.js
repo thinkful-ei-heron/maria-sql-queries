@@ -33,7 +33,7 @@ app.get('/', (req, res) => {
            res.status(500).json(response)
         })
 
-        //error handeling middlewware put at the end . We also put in 4 params .
+        //error handeling middlewware put atff the end . We also put in 4 params .
         // if argument length === 4 , treat this as hadnleing middlewear. if it less than 1 and less than 4, then treat as normal 
         // should get error in json format, but for some reason is didnt
 module.exports = app;
