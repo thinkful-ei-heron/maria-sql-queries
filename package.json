@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require test/setup.js",  // created settup file , we can put any code that needs to execute before any other file, and it its runsbefore any spec files. 
+    "test": "mocha --require test/setup.js",
     "dev": "nodemon src/server.js",
     "start": "node src/server.js",
     "predeploy": "npm audit",
